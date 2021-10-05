@@ -1,5 +1,3 @@
-package com.company;
-
 import java.util.Scanner;
 
 public class Main {
@@ -42,5 +40,5 @@ public class Main {
                 } while (e != 1 && e != 2);
             }
         } while (e != 1);
-}
+    }
 }

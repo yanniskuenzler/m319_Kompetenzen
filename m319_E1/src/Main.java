@@ -1,10 +1,9 @@
-package com.company;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-	//include scanner for reading input
+        //include scanner for reading input
         Scanner scan = new Scanner(System.in);
 
         int input; //declare variable
@@ -25,4 +24,3 @@ public class Main {
         scan.close();
     }
 }
-

@@ -1,6 +1,0 @@
-m319 
-1)	1
-2)	Der Inhalt der FOR-Schleife
-3)	f9
-4)	-5: Beginnt mit 1, endet mit 55
-	-3: Beginnt mit 3, endet mit 52
