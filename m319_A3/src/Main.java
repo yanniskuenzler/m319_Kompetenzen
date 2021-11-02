@@ -29,7 +29,7 @@ public class Main {
                 String inputraw = sc.nextLine();
                 if ( inputraw.equals("yes") || inputraw.equals("y") ) { exit = true; exitofexit = true; }
                 else if ( inputraw.equals("no") || inputraw.equals("n") ) { exitofexit = true; }
-                else { System.out.println(  "This wasnt an option"); }
+                else { System.out.println("This wasnt an option"); }
             } while ( !exitofexit );
         } while ( !exit );
     }
