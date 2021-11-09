@@ -5,11 +5,14 @@ public class checklist {
     int actCount = -1; //Anzahl der sich im Array befindenden Elemente
     String chMode = "n"; //wechseln des Modus
     boolean ovwr = false; //Überschreiben des letzten Elements im Array
-    String taskComplete = ""; //Eingabe welche Aufgaben als Erledigt markiert werden soll
+    int taskComplete = 0; //Eingabe welche Aufgaben als Erledigt markiert werden soll
 
     Scanner sc = new Scanner(System.in);
+    Input in = new Input();
 
-    //Eingaben von Aufgaben
+    /***
+     *
+     */
     public void insert() {
         do {
             if (ovwr == false) {
@@ -38,12 +41,12 @@ public class checklist {
             for (int i = 0; i <= actCount; i++) {
                 System.out.println(toDoList[i]);
             }
-                taskComplete = sc.nextLine();
+                taskComplete = Input.inputInt("Welche Aufgabe haben Sie erledigt?");
 
-            if (!taskComplete.equals("exit")) {
-                toDoList[Integer.parseInt(taskComplete)] = "DONE -> " + toDoList[Integer.parseInt(taskComplete)];
+            if (taskComplete != -1) {
+                toDoList[taskComplete] = "DONE -> " + toDoList[taskComplete];
             }
 
-        } while (!taskComplete.equals("exit"));
+        } while (taskComplete != -1);
     }
 }
