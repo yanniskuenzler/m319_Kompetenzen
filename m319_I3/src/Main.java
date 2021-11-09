@@ -5,7 +5,7 @@ public class Main {
 
         checklist cl = new checklist();
 
-        System.out.println("Willkommen zur ToDo-Liste von Yannis Künzler!\n\nMan kann hier seine Tasks, die man erledigen möchte eintragen und dann, im Erledigen-Modus als erledigt markieren.");
+        System.out.println("Willkommen zur ToDo-Liste von Yannis Künzler!\n\nMan kann hier seine Tasks, die man erledigen möchte eintragen und dann, im Erledigen-Modus als erledigt markieren. Um den Modus zu wechseln einfach Enter ohne eine Eingabe drücken.");
 
         //Eingabe von Aufgaben, die zu lösen sind
         cl.insert();

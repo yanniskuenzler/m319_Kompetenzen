@@ -20,8 +20,10 @@ public class checklist {
             toDoList[actCount] = sc.nextLine();
 
             if (toDoList[actCount].equals("")) {
-                System.out.println("Wollen Sie in den Erledigen-Modus gehen, um Ihre Aufgaben zu erledigen [y] oder wollen Sie weitere Tasks eingeben [n]?");
-                chMode = sc.nextLine();
+                do {
+                    System.out.println("Wollen Sie in den Erledigen-Modus gehen, um Ihre Aufgaben zu erledigen [y] oder wollen Sie weitere Tasks eingeben [n]?");
+                    chMode = sc.nextLine();
+                } while ((!chMode.equals("y"))&&(!chMode.equals("n")));
                 ovwr = true;
             } else {
                 toDoList[actCount] = Integer.toString(actCount) + ": " + toDoList[actCount];
@@ -36,7 +38,7 @@ public class checklist {
             for (int i = 0; i <= actCount; i++) {
                 System.out.println(toDoList[i]);
             }
-            taskComplete = sc.nextLine();
+                taskComplete = sc.nextLine();
 
             if (!taskComplete.equals("exit")) {
                 toDoList[Integer.parseInt(taskComplete)] = "DONE -> " + toDoList[Integer.parseInt(taskComplete)];
