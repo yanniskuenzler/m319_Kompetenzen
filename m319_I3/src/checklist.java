@@ -41,7 +41,10 @@ public class checklist {
             for (int i = 0; i <= actCount; i++) {
                 System.out.println(toDoList[i]);
             }
+
+            do {
                 taskComplete = Input.inputInt("Welche Aufgabe haben Sie erledigt?");
+            } while ((taskComplete < -1)||(taskComplete > actCount));
 
             if (taskComplete != -1) {
                 toDoList[taskComplete] = "DONE -> " + toDoList[taskComplete];
