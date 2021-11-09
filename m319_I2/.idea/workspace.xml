@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3fff187-42b5-4f61-af55-90300b0c7f49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../m319_E1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../m319_I1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_E1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_E1/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_E1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_E1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../m319_E1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_E1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../m319_E1/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_E1/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_E1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../m319_E1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_E1/Aufgaben_m319_E1_SerieA_Taskd.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_E1/m319.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_E1/out/production/m319/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_E1/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_I1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_I1/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_I1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_I1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../m319_I1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_I1/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_I1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../m319_I1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_I1/out/production/m319_I1/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../m319_I1/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/m319_I2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/m319_I2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../m319_I1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../m319_I1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,5 +67,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
